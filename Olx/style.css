@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+/* Header Started  */
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 60px;
+  padding-bottom: 0;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  gap: 20px;
+}
+.nav #first-div {
+  display: flex;
+  gap: 25px;
+}
+#first-div img {
+  cursor: pointer;
+}
+.nav #second-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav #second-div .form-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+}
+.first-btn {
+  margin-right: 20px;
+  margin-top: 10px;
+  width: 20vw;
+}
+.second-btn {
+  margin-right: 20px;
+  margin-top: 10px;
+  width: 40vw;
+}
+#login {
+  color: #002f34;
+  width: 55px;
+  text-align: center;
+  border-bottom: 2px solid #002f34;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+#login:hover {
+  border-bottom: none;
+}
+#sell {
+  width: 80px;
+  text-align: center;
+  color: #002f34;
+  font-weight: bold;
+  border: 2px solid #002f34;
+  font-size: 15px;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+/* Header Ended  */
+
+/* Main Started  */
+
+/* Section 1 Started  */
+.section-one {
+  display: flex;
+  flex-direction: column;
+}
+.section-one ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #002f34;
+  cursor: pointer;
+}
+.section-one ul li:hover {
+  color: rgb(0, 164, 159);
+}
+.section-one img {
+  width: 80%;
+  margin: 0 auto;
+}
+/* Section 1 Ended  */
+
+/* Section 2 Started  */
+.section-two {
+  display: flex;
+  padding: 20px 0px;
+}
+.section-two img {
+  width: 100%;
+  cursor: pointer;
+}
+/* Section 2 Ended  */
+
+/* Section 3 Started  */
+.section-three {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.section-three h1 {
+  font-size: 24px;
+  text-align: start;
+  padding: 20px 80px;
+  font-weight: bold;
+  color: #002f34;
+}
+.section-three #image {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.section-three .images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.section-three p {
+  text-align: center;
+  width: 50%;
+}
+.section-three img {
+  height: 11vh;
+  flex-wrap: wrap;
+}
+
+/* Section 3 Ended  */
+
+/* Section 4 Started  */
+.section-four {
+  display: flex;
+}
+.section-four .cards {
+  display: flex !important;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-direction: row;
+}
+.section-four .card {
+  display: flex !important;
+  display: flex !important;
+}
+.section-four h1 {
+  font-size: 24px;
+  text-align: start;
+  padding: 20px 70px;
+  font-weight: bold;
+  color: #002f34;
+}
+/* Section 4 Ended  */
+
+/* Section 5 Started  */
+.section-five {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0px;
+  background-color: rgba(0, 47, 52, 0.03);
+  align-items: center;
+  cursor: pointer;
+}
+/* Section 5 Ended  */
+
+/* Section 6 Started  */
+.section-six {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 40px;
+  padding: 20px 60px;
+}
+.section-six h3 {
+  font-size: 14px;
+  color: #002f34;
+  font-weight: 700;
+}
+.section-six p {
+  font-size: 12px;
+  color: #002f34;
+  font-weight: 400;
+  line-height: 7px;
+}
+/* Section 6 Ended  */
+/* Main Ended */
+
+/* Footer Started  */
+.footer {
+  background-color: #002f34;
+}
+.footer p {
+  margin: 0;
+  padding: 15px;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+/* Footer Ended  */
